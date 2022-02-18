@@ -8,35 +8,20 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Nick's Website</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap" rel="stylesheet">
 
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <body class="d-flex text-center flex-column">
+    <div class="cover-container d-flex mx-auto flex-column">
       <header class="mb-auto">
         <div>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
+          <nav class="nav nav-masthead float-md-end">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">About Me</a>
             <a class="nav-link" href="#">Resume</a>
@@ -44,23 +29,77 @@
           </nav>
         </div>
       </header>
-
-      <main class="px-3">
-        <h1>Hi, Im Nick </h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-        </p>
-      </main>
-
-      <div class="container">
-        <div class="row"></div>
-      </div>
-
-      <footer class="mt-auto text-white-50">
-        <p>Cover template using <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://github.com/quinonesnn" class="text-white">@quinonesnn</a>.</p>
-      </footer>
+<!--------------------------------------------------------------------------------------->
+      <section id="title">
+        <main data-aos="zoom-in" data-aos-duration="1000">
+          <h1>Hi, Im Nick 😄 </h1>
+          <p class="lead">passionate about techology, finance, & organization</p>
+        </main>
+      </section>
     </div>
+<!--------------------------------------------------------------------------------------->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="card" data-aos="fade-right" data-aos-duration="2000">
+            <div class="d-flex">
+              <i id="icon" class="fa-solid fa-paintbrush fa-3x"></i></i>
+              <div class="card-body">
+                <h4 class="card-title">PaintClone</h4>
+                <p class="card-text">This is a clone of Microsoft's Paint</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-left" data-aos-duration="2000">
+          <div class="card">
+            <div class="d-flex">
+              <i id="icon" class="fa-solid fa-user-secret fa-3x"></i></i>
+              <div class="card-body">
+                <h4 class="card-title">Second Project</h4>
+                <p class="card-text">This will be the next project I make</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-right" data-aos-duration="2000">
+          <div class="card">
+            <div class="d-flex">
+              <i id="icon" class="fa-solid fa-dumpster-fire fa-3x"></i></i>
+              <div class="card-body">
+                <h4 class="card-title">Third Project</h4>
+                <p class="card-text">This will be the third project I make</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--------------------------------------------------------------------------------------->
+    <footer id="footer" class="text-center">
+      <figure>
+          <blockquote class="blockquote">
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+      </figure>
+      <h1>Lets Connect</h1>
+      <a href="www.linkedin.com/in/nicolas-quinones-156255159">LinkedIn</a>
+      <a href="https://github.com/quinonesnn">GitHub</a>
+      <a href="mailto:nquinones2@stetson.edu">Email</a>
+      <p>Copyright © 2022 Nicolas Quinones</p>
+    </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9e94cadedc.js" crossorigin="anonymous"></script>
     <script href="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
