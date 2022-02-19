@@ -42,20 +42,8 @@ a {
 }
 
 
-.cover-container {
+.cover{
   max-width: 42em;
-}
-
-
-#title{
-    height: 450px;
-    padding: 50px;
-    margin-top: 150px;
-}
-
-
-#title p { 
-    font-size: 25px;
 }
 
 .nav-masthead .nav-link {
@@ -81,6 +69,15 @@ a {
   border-bottom-color: #fff;
 }
 
+#title{
+  height: 450px;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+#title p { 
+  font-size: 25px;
+}
 
 #projects{
   background-color: #abd1c6;
@@ -88,8 +85,8 @@ a {
   padding: 50px;
 }
 
-#projects .container{
-  width: 700px;
+.project-col{
+  max-width: 700px;
 }
 
 
@@ -113,6 +110,10 @@ a {
     margin-top: 50px;
 }
 
+.about-banner{
+  width: 1000px;
+  height: 600px;
+}
 
 
 
