@@ -14,7 +14,7 @@
 
 	var burgerMenu = function() {
 
-		$('.js-nav-toggle').on('click', function(event) {
+		$('.js-colorlib-nav-toggle').on('click', function(event) {
 			event.preventDefault();
 			var $this = $(this);
 			if( $('body').hasClass('menu-show') ) {

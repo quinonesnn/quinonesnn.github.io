@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaintClone</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex text-center flex-column">
+    <div class="container-fluid d-flex about mx-auto flex-column"> 
+        <header class="mb-auto">
+        <div>
+            <nav class="nav nav-masthead float-md-end">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="#">Contact Me</a>
+            </nav>
+        </div>
+        </header>
+        <section id="title">
+            <main data-aos="zoom-in" data-aos-duration="1000">
+              <h1>PaintClone <i id="icon" class="fa-solid fa-paintbrush"></i></i></h1>
+              <p class="lead">This is a clone of Mircosoft Paint that uses Java and its javax.swing library</p>
+            </main>
+        </section>
+    <section id="project-details">
+        <div class="container-fluid d-flex flex-column">
+            <div class="row" data-aos="fade-right" data-aos-duration="2000"> 
+                <div class="card mb-3">
+                    <div class="card-body github">
+                        <p>You can access the source code on Github <a href="https://github.com/quinonesnn/PaintClone">Here</a></p>
+                    </div>
+                    <img class="img-fluid rounded" src="images/paintclone.png" alt="">
+                    <div class="card-body">
+                        <p class="card-text">You are able to select a RBG colors and creates a pallet of those recently used colors on the side of the window.</p>
+                    </div>
+                    <img class="img-fluid rounded" src="images/paintclone_gradient.png" alt="">
+                    <img class="img-fluid rounded" src="images/paintclone_hotbar.png" alt="">
+                    <div class="card-body">
+                        <p class="card-text">The hot bar includes the following buttons respectively:</p>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">A save button that saves the state of the canvas as a .png file.</li>
+                            <li class="list-group-item">A clear button that erases everything on the canvas.</li>
+                            <li class="list-group-item">A erase button that erases the paint on the canvas according to the size of the paintbrush.</li>
+                            <li class="list-group-item">A size dropbox that allows you to change the size of the paintbrush by pressing the change button.</li>
+                            <li class="list-group-item">A change button that is currently nessecary to change the size of the paint brush according to the size in the drop box.</li>
+                            <li class="list-group-item">A undo button that undos the last thing painted onto the canvas.</li>
+                            <li class="list-group-item">A data button that is still a work in progress, the goal is to get a histogram of the colors that are present in each pixel of the canvas.</li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <p>The last feature is a shape drawer that lets you toggle between filled in shapes and outlined shapes. You can draw the shape, with the color that is selected, by clicking and dragging diagnoally.</p>
+                    </div>
+                    <img class="img rounded" src="images/paintclone_shapes.png" alt="">
+                    <img class="img-fluid rounded" src="images/paintclone_filled.png" alt="">
+                    <img class="img-fluid rounded" src="images/paintclone_help.png" alt="">
+       
+            </div>
+        </div>
+    <footer id="footer" class="text-center">
+        <div class="container">
+            <h1>Lets Connect</h1>
+            <div class="d-flex links">
+            <a href="www.linkedin.com/in/nicolas-quinones-156255159" class="btn btn-lg" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-linkedin icon"></i>LinkedIn</a>
+            <a href="https://github.com/quinonesnn" class="btn  btn-lg" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github icon"></i>Github</a>
+            <a href="mailto:nquinones2@stetson.edu" class="btn  btn-lg" tabindex="-1" role="button" aria-disabled="true"><i class="fa-solid fa-envelope icon"></i>Email</a>
+            </div>
+            <p>Copyright © 2022 Nicolas Quinones</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9e94cadedc.js" crossorigin="anonymous"></script>
+    <script href="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

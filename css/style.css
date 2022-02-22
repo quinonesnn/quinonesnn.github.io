@@ -1,6 +1,5 @@
 
 body {
-  text-shadow: 0 .05rem .1rem #001e1d;
   box-shadow: inset 0 0 5rem #001e1d;
   font-family: 'Oswald', sans-serif;
   background-color: #004643;
@@ -82,22 +81,22 @@ a {
 }
 
 
-.card{
+#projects .card{
   background-color: #004643;
   padding: 20px;
   margin-bottom: 40px;
 }
 
-.card:hover{
+#projects .card:hover{
   box-shadow: 0 1em 5em -0.4em  #0f3433;
   transform: translateY(-1em);
 }
 
-.card-body{
+#projects .card-body{
     text-align: left;
 }
 
-.card-title{
+#projects .card-title{
   color: #fffffe;
 }
 
@@ -151,6 +150,31 @@ a {
   background-color: #e8e4e6;
 }
 
+#project-details .card{
+  background-color: #e8e4e6;
+  text-align: left;
+  padding: 80px;
+}
+
+#project-details p{
+  color: #0f3433;
+  font-weight: bold;
+}
+
+#project-details img{
+  margin: 20px;
+
+}
+
+.list-group-item{
+  background-color: #004643;
+  margin: 10px;
+  color: #fffffe;
+  font-weight: bold;
+}
+.github{
+  text-align: right;
+}
 
 
 
